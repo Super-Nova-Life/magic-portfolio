@@ -96,7 +96,7 @@ export default async function RootLayout({
         />
       </head>
       <Providers>
-        <Column as="body" background="page" fillWidth style={{minHeight: "100vh"}} margin="0" padding="0" horizontal="center">
+        <Column as="body" background="page" fillWidth style={{ minHeight: "100vh", overscrollBehaviorX: "auto" }} margin="0" padding="0" horizontal="center">
           <Background
             position="fixed"
             mask={{

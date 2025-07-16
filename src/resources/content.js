@@ -1,16 +1,17 @@
 import { Logo } from "@once-ui-system/core";
 
 const person = {
-  firstName: "Selene",
-  lastName: "Yu",
+  firstName: "Theo",
+  lastName: "Wezel",
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Design Engineer",
+  role: "Academic - Athlete - Entrepreneur",
   avatar: "/images/avatar.jpg",
-  email: "example@gmail.com",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+  email: "theo.wezel@icloud.com",
+  location: "Europe/Berlin", // Expecting the IANA time zone identifier
+  geoLocation: "Europe/Munich", // Display region string
+  languages: ["German", "English", "French"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter = {
@@ -18,8 +19,8 @@ const newsletter = {
   title: <>Subscribe to {person.firstName}'s Newsletter</>,
   description: (
     <>
-      I occasionally write about design, technology, and share thoughts on the intersection of
-      creativity and engineering.
+      I occasionally write about entrepreneurship, technology, and share thoughts on the intersection of
+      creativity and innovation.
     </>
   ),
 };
