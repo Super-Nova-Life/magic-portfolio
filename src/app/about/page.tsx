@@ -92,7 +92,7 @@ export default function About() {
             <Avatar src={person.avatar} size="xl" />
             <Flex gap="8" vertical="center">
               <Icon onBackground="accent-weak" name="globe" />
-              {person.location}
+              {person.geoLocation}
             </Flex>
             {person.languages.length > 0 && (
               <Flex wrap gap="8">
@@ -138,12 +138,12 @@ export default function About() {
                 />
               </Flex>
             )}
-            <Heading className={styles.textAlign} variant="display-strong-xl">
+            <Heading className={styles.textAlign} variant="display-strong-xl" marginBottom="s">
               {person.name}
             </Heading>
             <Text
               className={styles.textAlign}
-              variant="display-default-xs"
+              variant="heading-default-m"
               onBackground="neutral-weak"
             >
               {person.role}

@@ -174,16 +174,16 @@ const mailchimp = {
 // default schema data
 const schema = {
   logo: "",
-  type: "Organization",
-  name: "Once UI",
+  type: "Person",
+  name: "Theo Wezel",
   description: home.description,
-  email: "lorant@once-ui.com",
+  email: "theo.wezel@icloud.com",
 };
 
 // social links
 const sameAs = {
-  threads: "https://www.threads.com/@once_ui",
-  linkedin: "https://www.linkedin.com/company/once-ui/",
+  threads: "https://www.threads.com/@theo_wezel",
+  linkedin: "https://www.linkedin.com/in/theo-wezel/",
   discord: "https://discord.com/invite/5EyAQ4eNdS",
 };
 
