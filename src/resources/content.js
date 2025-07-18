@@ -91,9 +91,7 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        Consectetur quis anim tempor dolor magna ea sunt exercitation ut. Fugiat enim excepteur nulla sunt. Nulla labore culpa mollit. Est proident amet anim labore sint. Enim aute veniam magna in cupidatat non esse amet enim Lorem laborum non aliquip consectetur officia.
       </>
     ),
   },
