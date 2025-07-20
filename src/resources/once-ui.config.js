@@ -20,8 +20,11 @@ const display = {
 // Enable password protection on selected routes
 // Set password in the .env file
 const protectedRoutes = {
+  "/": true,
   "/about": true,
-  "/work/automate-design-handovers-with-a-figma-to-code-pipeline": true,
+  "/work": true,
+  "/blog": true,
+  "/gallery": true,
 };
 
 // Import and set font for each variant
