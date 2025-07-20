@@ -31,17 +31,17 @@ const social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/once-ui-system/nextjs-starter",
+    link: "https://github.com/Super-Nova-Life",
   },
   {
-    name: "LinkedIn",
-    icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
+    name: "YouTube",
+    icon: "youtube",
+    link: "https://www.youtube.com/@SuperNovaLifestyle",
   },
   {
-    name: "Threads",
-    icon: "threads",
-    link: "https://www.threads.com/@once_ui",
+    name: "X",
+    icon: "twitter",
+    link: "https://x.com/Super_NovaLife",
   },
   {
     name: "Email",
