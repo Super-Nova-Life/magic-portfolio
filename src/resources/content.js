@@ -29,6 +29,11 @@ const social = [
   // Links are automatically displayed.
   // Import new icons in /once-ui/icons.ts
   {
+    name: "Instagram",
+    icon: "instagram",
+    link: "https://www.instagram.com/theowezel/",
+  },
+  {
     name: "GitHub",
     icon: "github",
     link: "https://github.com/Super-Nova-Life",
@@ -55,7 +60,7 @@ const home = {
   image: "/images/og/home.jpg",
   label: "Home",
   title: `${person.name}'s Portfolio`,
-  description: `Portfolio website showcasing my work as a ${person.role}`,
+  description: `Portfolio website showcasing my work as ${person.role}`,
   headline: <>Building bridges between design and code</>,
   featured: {
     display: true,
